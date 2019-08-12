@@ -1,0 +1,18 @@
+
+  <div class="row mt-3">
+    <div class="col-md-4"  *ngFor="let m of movies">  
+
+        <a [routerLink]="['/movie', m.id]" >
+          <div class="card shadow-sm mb-5 bg-white">
+            <img src="{{postPath}}/{{m.backdrop_path}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{m.title}}</h5>
+              <p class="card-text"></p>
+              <p class="card-text"><small class="text-muted"><i class="fa fa-star" aria-hidden="true"></i><span class="ml-1 font-weight-bold">{{m.vote_average}}</span> /10 ( {{m.vote_count}} )</small></p>
+            </div>
+          </div> 
+        </a>    
+         
+    </div>
+  </div>
+
