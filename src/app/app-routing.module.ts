@@ -7,7 +7,7 @@ import { Resolver } from './resolver';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '/',
     component: ContentComponent,    
   },
   {
