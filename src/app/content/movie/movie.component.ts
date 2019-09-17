@@ -1,7 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { RestService } from 'src/app/rest.service';
 import { Router, ActivatedRoute } from '@angular/router';
-
+declare var jquery: any;
+declare var $: any;
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
@@ -33,14 +34,27 @@ export class MovieComponent implements OnInit {
         console.log(this.trailerKey);
         this.url = 'http://www.youtube.com/watch?v=' + this.getKey('movie_key');
         this.load = true;
-
+        this.getScript();
       });
     });
+    
     
   }
 
   getKey(id :any){
     return localStorage.getItem(id);
 
+  }
+  
+  getScript(){
+    
+    $(document).ready(function () {
+      setTimeout(() => {
+        
+      }, 3000);
+          $('#player').mediaelementplayer();
+          $('#youtube1').mediaelementplayer();
+
+    });
   }
 }
