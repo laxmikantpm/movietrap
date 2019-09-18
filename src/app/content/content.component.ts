@@ -27,6 +27,7 @@ export class ContentComponent implements OnInit {
     this.movies = [];
     this.rest.getMovies().subscribe((data ={}) => {
       this.movies = data.results;
+      console.log(this.movies +" this.movies  ");
     });    
   }
 

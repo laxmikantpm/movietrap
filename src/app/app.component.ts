@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'quicker-app';
+  title = 'MovieTrap';
 
   private apiUrl = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=';
   private apiKey = '17241ed3b7514eceb74d689f30dcaddf';
