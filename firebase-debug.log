@@ -283,3 +283,21 @@ Before we get started, keep in mind:
 [info] +  Wrote functions/tsconfig.json
 [info] +  Wrote functions/src/index.ts
 [info] +  Wrote functions/.gitignore
+[info] 
+[error] NPM install failed, continuing with Firebase initialization...
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-09-18T05:34:34.098Z] Error: kill ENOSYS
+    at process.kill (internal/process.js:172:20)
+    at process.listener (C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at processEmit (C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:155:32)
+    at Signal.wrap.onsignal (internal/process.js:197:44)
+[error] 
+[error] Error: An unexpected error has occurred.
