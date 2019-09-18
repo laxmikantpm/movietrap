@@ -23,3 +23,263 @@ Before we get started, keep in mind:
 
   * You are initializing in an existing Firebase project directory
 
+[debug] [2019-09-18T05:09:16.267Z] ----------------------------------------------------------------------
+[debug] [2019-09-18T05:09:16.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-09-18T05:09:16.267Z] CLI Version:   7.3.2
+[debug] [2019-09-18T05:09:16.267Z] Platform:      win32
+[debug] [2019-09-18T05:09:16.267Z] Node Version:  v8.12.0
+[debug] [2019-09-18T05:09:16.267Z] Time:          Wed Sep 18 2019 10:39:16 GMT+0530 (India Standard Time)
+[debug] [2019-09-18T05:09:16.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-18T05:09:16.283Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T05:09:16.283Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\z016124\Desktop\quicker-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using orbital-scene-237705.
+[debug] [2019-09-18T05:09:23.061Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-18T05:09:23.061Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-18T05:09:23.738Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2019-09-18T05:09:23.790Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:8:12)
+    at Module._compile (module.js:653:30)
+[error] 
+[error] Error: Failed to get Firebase project orbital-scene-237705. Please make sure the project exists and your account has permission to access it.
+[debug] [2019-09-18T05:10:24.385Z] ----------------------------------------------------------------------
+[debug] [2019-09-18T05:10:24.388Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-09-18T05:10:24.388Z] CLI Version:   7.3.2
+[debug] [2019-09-18T05:10:24.388Z] Platform:      win32
+[debug] [2019-09-18T05:10:24.388Z] Node Version:  v8.12.0
+[debug] [2019-09-18T05:10:24.389Z] Time:          Wed Sep 18 2019 10:40:24 GMT+0530 (India Standard Time)
+[debug] [2019-09-18T05:10:24.389Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-18T05:10:24.403Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T05:10:24.404Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\z016124\Desktop\quicker-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using orbital-scene-237705.
+[debug] [2019-09-18T05:10:31.888Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-18T05:10:31.889Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-18T05:10:31.939Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2019-09-18T05:10:31.982Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:8:12)
+    at Module._compile (module.js:653:30)
+[error] 
+[error] Error: Failed to get Firebase project orbital-scene-237705. Please make sure the project exists and your account has permission to access it.
+[debug] [2019-09-18T05:21:06.284Z] ----------------------------------------------------------------------
+[debug] [2019-09-18T05:21:06.284Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-09-18T05:21:06.284Z] CLI Version:   7.3.2
+[debug] [2019-09-18T05:21:06.284Z] Platform:      win32
+[debug] [2019-09-18T05:21:06.284Z] Node Version:  v8.12.0
+[debug] [2019-09-18T05:21:06.284Z] Time:          Wed Sep 18 2019 10:51:06 GMT+0530 (India Standard Time)
+[debug] [2019-09-18T05:21:06.284Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-18T05:21:06.300Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T05:21:06.300Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\z016124\Desktop\quicker-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using orbital-scene-237705.
+[debug] [2019-09-18T05:21:11.583Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-18T05:21:11.583Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-18T05:21:13.208Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T05:21:13.224Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/orbital-scene-237705  
+ 
+[debug] [2019-09-18T05:21:14.021Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2019-09-18T05:21:43.989Z] Error: EISDIR: illegal operation on a directory, open 'C:\Users\z016124\Desktop\quicker-app'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.writeFileSync (fs.js:1299:33)
+    at Config.writeProjectFile (C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:179:8)
+    at C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\database.js:25:23
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:229:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-09-18T05:21:48.506Z] ----------------------------------------------------------------------
+[debug] [2019-09-18T05:21:48.522Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\z016124\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-09-18T05:21:48.522Z] CLI Version:   7.3.2
+[debug] [2019-09-18T05:21:48.522Z] Platform:      win32
+[debug] [2019-09-18T05:21:48.522Z] Node Version:  v8.12.0
+[debug] [2019-09-18T05:21:48.522Z] Time:          Wed Sep 18 2019 10:51:48 GMT+0530 (India Standard Time)
+[debug] [2019-09-18T05:21:48.522Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-18T05:21:48.538Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T05:21:48.538Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\z016124\Desktop\quicker-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using orbital-scene-237705.
+[debug] [2019-09-18T05:21:52.928Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/orbital-scene-237705  
+ 
+[debug] [2019-09-18T05:21:53.756Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[info] +  Database Rules for  have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[debug] [2019-09-18T05:21:56.866Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T05:21:56.866Z] > authorizing via signed-in user
+[debug] [2019-09-18T05:21:56.866Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/orbital-scene-237705  
+ 
+[debug] [2019-09-18T05:21:57.585Z] <<< HTTP RESPONSE 200
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2019-09-18T05:22:01.194Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/orbital-scene-237705/releases?pageSize=10&pageToken=  
+ 
+[debug] [2019-09-18T05:22:03.022Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T05:22:03.022Z] No rulesets found, using default.
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2019-09-18T05:22:06.256Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1beta2/projects/orbital-scene-237705/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2019-09-18T05:22:06.272Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1beta2/projects/orbital-scene-237705/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2019-09-18T05:22:07.522Z] <<< HTTP RESPONSE 400
+[debug] [2019-09-18T05:22:07.522Z] <<< HTTP RESPONSE BODY
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2019-09-18T05:22:07.538Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T05:22:07.538Z] > authorizing via signed-in user
+[debug] [2019-09-18T05:22:07.538Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/orbital-scene-237705  
+ 
+[debug] [2019-09-18T05:22:07.538Z] <<< HTTP RESPONSE 400
+[debug] [2019-09-18T05:22:07.538Z] <<< HTTP RESPONSE BODY
+[debug] [2019-09-18T05:22:07.975Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T05:22:07.975Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/orbital-scene-237705/services/cloudfunctions.googleapis.com:enable  
+ 
+[debug] [2019-09-18T05:22:07.975Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/orbital-scene-237705/services/runtimeconfig.googleapis.com:enable  
+ 
+[debug] [2019-09-18T05:22:10.116Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T05:22:10.147Z] <<< HTTP RESPONSE 200
+[info] +  Wrote functions/package.json
+[info] +  Wrote functions/tslint.json
+[info] +  Wrote functions/tsconfig.json
+[info] +  Wrote functions/src/index.ts
+[info] +  Wrote functions/.gitignore
